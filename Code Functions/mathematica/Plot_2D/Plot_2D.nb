@@ -1,0 +1,9 @@
+
+f[x_] := x^2
+Plot[f[x],{x,-2-2}]
+
+
+(* Varios Plots *)
+f[x_] := x^2
+g[x_] := 2*x
+Plot[{f[x], g[x]}, {x, -2, 2}, PlotLegends -> "Expressions"]

@@ -1,0 +1,11 @@
+
+
+Clear[dx, dy, dxu, dyu]
+dx[x_, y_] = 2 x + 2 y
+dy[x_, y_] = -2 x + 6 y
+
+dxu = dx[x, y]/Sqrt[dx[x, y]^2 + dy[x, y]^2]
+dyu = dy[x, y]/Sqrt[dx[x, y]^2 + dy[x, y]^2]
+
+StreamPlot[{dxu, dyu}, {x, -3, 3}, {y, -3, 3}, 
+ StreamColorFunction -> None]

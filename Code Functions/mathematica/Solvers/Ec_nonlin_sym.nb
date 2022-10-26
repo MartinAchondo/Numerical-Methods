@@ -1,0 +1,6 @@
+
+Solve[x^2 + a x + 1 == 0, x]
+
+Solve[(x^2 + 2) (x^2 - 2) == 0, x, Reals]
+
+Solve[x^2 + 2 y^3 == 3681 && x > 0 && y > 0, {x, y}, Integers]

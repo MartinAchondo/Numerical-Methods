@@ -1,0 +1,7 @@
+(* vectors and streams*)
+
+VectorPlot[{x, -y}, {x, -3, 3}, {y, -3, 3}]
+
+StreamPlot[{x, -y}, {x, -3, 3}, {y, -3, 3}]
+
+VectorDensityPlot[{x, -y}, {x, -3, 3}, {y, -3, 3}]

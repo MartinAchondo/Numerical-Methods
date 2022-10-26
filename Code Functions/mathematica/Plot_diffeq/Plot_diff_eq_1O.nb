@@ -1,0 +1,6 @@
+
+
+dydx[x_, y_] := Sin[y + x]
+
+StreamPlot[{1, dydx[x, y]}, {x, 0, 2 Pi}, {y, 0, 2 Pi}, 
+ Frame -> False, Axes -> True, AspectRatio -> Automatic]

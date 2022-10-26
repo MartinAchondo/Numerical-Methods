@@ -1,0 +1,4 @@
+
+NSolve[x^5 - 2 x + 3 == 0, x]
+
+NSolve[x^5 - 2 x + 3 == 0, x, Reals]
