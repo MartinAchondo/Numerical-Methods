@@ -1,0 +1,11 @@
+Para C:
+f5 cambiar external console a true
+
+Para Fortran:
+
+$> gfortran hello.f90 -o hello
+$> ./hello
+Puedo crear un python code para compilar y correr
+
+correr sh script: abrir bash!
+$> sh script.sh
